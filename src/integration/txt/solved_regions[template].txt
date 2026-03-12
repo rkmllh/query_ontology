@@ -1,0 +1,57 @@
+{
+    "label_1": {
+        "query": query,
+        "definitions": {
+            "ont1": "def_by_ont1",
+            "ont2": "def_by_ont2",
+            "ont3": "def_by_ont3",
+        },
+    },
+
+    "label_2": {
+        "query": query,
+        "definitions": {
+            "ont1": "def_by_ont1",
+            "ont2": "def_by_ont2",
+            "ont3": "def_by_ont3",
+        },
+    },
+
+    "label_3": {
+        "query": query,
+        "definitions": {
+            "ont1": "def_by_ont1",
+            "ont2": "def_by_ont2",
+            "ont3": "def_by_ont3",
+        },
+    },
+
+    "label_4": {
+        "query": query,
+        "definitions": {
+            "ont1": "def_by_ont1",
+            "ont2": "def_by_ont2",
+            "ont3": "def_by_ont3",
+        },
+    },
+}
+
+For example:
+
+{
+    "GM Hippocampus dentate gyrus": {
+        "query": "dentate gyrus",
+        "definitions": {
+            "UBERON:0001885": "Part of the hippocampal formation forming a 'V' or 'U' shaped structure with the opening bounded by hippocampal area CA3. It consists of 3 layers from superficial to deep: molecular, granule cell, and polymorphic or hilar layer.",
+            "FMA:61922": ""
+        }
+    },
+
+    "GM Broca's area BA44": {
+        "query": "BA44",
+        "definitions": {
+            "FMA:68641": "",
+            "UBERON:0006481": "Broca's area is a region of the inferior frontal gyrus (in the dominant cerebral hemisphere, usually on the left side) that is composed of parts of Brodmann's areas 44 and 45."
+        }
+    }
+}

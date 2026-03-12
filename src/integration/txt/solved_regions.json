@@ -1,0 +1,426 @@
+{
+     "GM Amygdala_centromedial group": {
+          "query": "nucleus amygdaloideus centralis",
+          "definitions": {
+               "FMA:74047": "Central amygdaloid nucleus",
+               "UBERON:0002883": "The output region of the amygdala responsible for controlling responses (Phelps & LeDoux, 2005, http://www.ncbi.nlm.nih.gov/pubmed/ 16242399)."
+          }
+     },
+     "GM Amygdala_laterobasal group": {
+          "query": "basolateral nucleus of amygdala",
+          "definitions": {
+               "FMA:84016": "Set of basolateral nuclei of amygdala",
+               "UBERON:0002887": "basal amygdaloid nucleus",
+               "UBERON:0006107": "A set of amygdalar nuclei comprising the lateral nucleus (LA), the basal nucleus (BA), and the accessory basal nuclei (ABN). These nuclei are bordered laterally by the external capsule and medially by the central amygdalar nucleus as well as the amygdalohippocampal area. This definition refers to the rat Basolateral nuclear complex."
+          }
+     },
+     "GM Amygdala_superficial group": {
+          "query": "nucleus corticalis amygdalae",
+          "definitions": {
+               "FMA:61862": "Cortical amygdaloid nucleus",
+               "UBERON:0002891": "Three layered structure that is located in the caudal aspect of the amygdala bordering the periamygdaloid cortex laterally."
+          }
+     },
+     "GM Anterior intra-parietal sulcus hIP1": {
+          "query": "intraparietal sulcus",
+          "definitions": {
+               "FMA:83772": "Intraparietal sulcus",
+               "UBERON:0002913": "The intraparietal sulcus (IPS) is located on the lateral surface of the parietal lobe, and consists of an oblique and a horizontal portion. The IPS contains a series of functionally distinct subregions that have been intensively investigated using both single cell neurophysiology in primates and human functional neuroimaging. Its principal functions are related to perceptual-motor coordination (for directing eye movements and reaching) and visual attention. The IPS is also thought to play a role in other functions, including processing symbolic numerical information, visuospatial working memory and interpreting the intent of others. [WP,unvetted]."
+          }
+     },
+     "GM Anterior intra-parietal sulcus hIP2": {
+          "query": "intraparietal sulcus",
+          "definitions": {
+               "FMA:83772": "Intraparietal sulcus",
+               "UBERON:0002913": "The intraparietal sulcus (IPS) is located on the lateral surface of the parietal lobe, and consists of an oblique and a horizontal portion. The IPS contains a series of functionally distinct subregions that have been intensively investigated using both single cell neurophysiology in primates and human functional neuroimaging. Its principal functions are related to perceptual-motor coordination (for directing eye movements and reaching) and visual attention. The IPS is also thought to play a role in other functions, including processing symbolic numerical information, visuospatial working memory and interpreting the intent of others. [WP,unvetted]."
+          }
+     },
+     "GM Anterior intra-parietal sulcus hIP3": {
+          "query": "intraparietal sulcus",
+          "definitions": {
+               "FMA:83772": "Intraparietal sulcus",
+               "UBERON:0002913": "The intraparietal sulcus (IPS) is located on the lateral surface of the parietal lobe, and consists of an oblique and a horizontal portion. The IPS contains a series of functionally distinct subregions that have been intensively investigated using both single cell neurophysiology in primates and human functional neuroimaging. Its principal functions are related to perceptual-motor coordination (for directing eye movements and reaching) and visual attention. The IPS is also thought to play a role in other functions, including processing symbolic numerical information, visuospatial working memory and interpreting the intent of others. [WP,unvetted]."
+          }
+     },
+     "GM Broca's area BA44": {
+          "query": "BA44",
+          "definitions": {
+               "UBERON:0006481": "Broca's area is a region of the inferior frontal gyrus (in the dominant cerebral hemisphere, usually on the left side) that is composed of parts of Brodmanns' areas 44 and 45.",
+               "FMA:68641": "Brodmann area 44"
+          }
+     },
+     "GM Broca's area BA45": {
+          "query": "BA45",
+          "definitions": {
+               "UBERON:0006482": "Part of the cytoarchitecturally defined frontal region of cerebral cortex. In the human, it occupies the triangular part of the inferior frontal gyrus (human) and, surrounding the anterior horizontal limb of the lateral sulcus (human), a portion of the orbital part of the inferior frontal gyrus (human). Bounded caudally by the anterior ascending limb of the lateral sulcus (human), it borders on the insula in the depth of the lateral sulcus. Cytoarchitectonically it is bounded caudally by the opercular area 44, rostrodorsally by the area 46 of Brodmann (human) and ventrally by the area 47 of Brodmann (human) (Brodmann-1909) (Adapted from Brain Info).",
+               "FMA:68642": "Brodmann area 45"
+          }
+     },
+     "GM Hippocampus cornu ammonis": {
+          "query": "cornu ammonis",
+          "definitions": {
+               "UBERON:0001954": "A part of the brain consisting of a three layered cortex located in the forebrain bordering the medial surface of the lateral ventricle. The term hippocampus is often used synonymously with hippocampal formation which consists of the hippocampus proper or Cornu Ammonis, the dentate gyrus and the subiculum.",
+               "FMA:62493": "Hippocampus proper"
+          }
+     },
+     "GM Hippocampus dentate gyrus": {
+          "query": "dentate gyrus",
+          "definitions": {
+               "FMA:61922": "Dentate gyrus of hippocampus"
+          }
+     },
+     "GM Hippocampus entorhinal cortex": {
+          "query": "entorhinal cortex",
+          "definitions": {
+               "FMA:72356": "Entorhinal area"
+          }
+     },
+     "GM Hippocampus hippocampal-amygdaloid transition area": {
+          "query": "claustral amygdaloid area",
+          "definitions": {
+               "FMA:61869": "Claustral amygdaloid area",
+               "UBERON:0002729": "claustral amygdaloid area"
+          }
+     },
+     "GM Hippocampus subiculum": {
+          "query": "subiculum",
+          "definitions": {
+               "FMA:74414": "Subiculum"
+          }
+     },
+     "GM Inferior parietal lobule PF": {
+          "query": "inferior parietal lobule",
+          "definitions": {
+               "FMA:77536": "Inferior parietal lobule (swannt)",
+               "UBERON:0006088": "Component of the parietal lobe. The inferior parietal cortex label includes the inferior parietal gyrus and the angular gyrus and lies inferior to the superior parietal gyrus. The rostral and caudal boundaries were the supramarginal gyrus and the parieto-occipital incisure respectively. The medial and lateral boundaries were the superior parietal gyrus and the middle temporal gyrus respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Inferior parietal lobule PFcm": {
+          "query": "inferior parietal lobule",
+          "definitions": {
+               "FMA:77536": "Inferior parietal lobule (swannt)",
+               "UBERON:0006088": "Component of the parietal lobe. The inferior parietal cortex label includes the inferior parietal gyrus and the angular gyrus and lies inferior to the superior parietal gyrus. The rostral and caudal boundaries were the supramarginal gyrus and the parieto-occipital incisure respectively. The medial and lateral boundaries were the superior parietal gyrus and the middle temporal gyrus respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Inferior parietal lobule PFm": {
+          "query": "inferior parietal lobule",
+          "definitions": {
+               "FMA:77536": "Inferior parietal lobule (swannt)",
+               "UBERON:0006088": "Component of the parietal lobe. The inferior parietal cortex label includes the inferior parietal gyrus and the angular gyrus and lies inferior to the superior parietal gyrus. The rostral and caudal boundaries were the supramarginal gyrus and the parieto-occipital incisure respectively. The medial and lateral boundaries were the superior parietal gyrus and the middle temporal gyrus respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Inferior parietal lobule PFop": {
+          "query": "inferior parietal lobule",
+          "definitions": {
+               "FMA:77536": "Inferior parietal lobule (swannt)",
+               "UBERON:0006088": "Component of the parietal lobe. The inferior parietal cortex label includes the inferior parietal gyrus and the angular gyrus and lies inferior to the superior parietal gyrus. The rostral and caudal boundaries were the supramarginal gyrus and the parieto-occipital incisure respectively. The medial and lateral boundaries were the superior parietal gyrus and the middle temporal gyrus respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Inferior parietal lobule PFt": {
+          "query": "inferior parietal lobule",
+          "definitions": {
+               "FMA:77536": "Inferior parietal lobule (swannt)",
+               "UBERON:0006088": "Component of the parietal lobe. The inferior parietal cortex label includes the inferior parietal gyrus and the angular gyrus and lies inferior to the superior parietal gyrus. The rostral and caudal boundaries were the supramarginal gyrus and the parieto-occipital incisure respectively. The medial and lateral boundaries were the superior parietal gyrus and the middle temporal gyrus respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Inferior parietal lobule PGp": {
+          "query": "inferior parietal lobule",
+          "definitions": {
+               "FMA:77536": "Inferior parietal lobule (swannt)",
+               "UBERON:0006088": "Component of the parietal lobe. The inferior parietal cortex label includes the inferior parietal gyrus and the angular gyrus and lies inferior to the superior parietal gyrus. The rostral and caudal boundaries were the supramarginal gyrus and the parieto-occipital incisure respectively. The medial and lateral boundaries were the superior parietal gyrus and the middle temporal gyrus respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Inferior parietal lobule Pga": {
+          "query": "inferior parietal lobule",
+          "definitions": {
+               "FMA:77536": "Inferior parietal lobule (swannt)",
+               "UBERON:0006088": "Component of the parietal lobe. The inferior parietal cortex label includes the inferior parietal gyrus and the angular gyrus and lies inferior to the superior parietal gyrus. The rostral and caudal boundaries were the supramarginal gyrus and the parieto-occipital incisure respectively. The medial and lateral boundaries were the superior parietal gyrus and the middle temporal gyrus respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Insula Id1": {
+          "query": "insula",
+          "definitions": {
+               "FMA:67329": "Insula",
+               "UBERON:0002022": "Gray matter of the insular region of the neocortex. In gyrencephalic animals, it is part of the insular lobe and lies in the depths of the lateral fissure and covered by portions of the frontal, parietal and temporal lobes. It includes Brodmann areas 13-16."
+          }
+     },
+     "GM Insula Ig1": {
+          "query": "insula",
+          "definitions": {
+               "FMA:67329": "Insula",
+               "UBERON:0002022": "Gray matter of the insular region of the neocortex. In gyrencephalic animals, it is part of the insular lobe and lies in the depths of the lateral fissure and covered by portions of the frontal, parietal and temporal lobes. It includes Brodmann areas 13-16."
+          }
+     },
+     "GM Insula Ig2": {
+          "query": "insula",
+          "definitions": {
+               "FMA:67329": "Insula",
+               "UBERON:0002022": "Gray matter of the insular region of the neocortex. In gyrencephalic animals, it is part of the insular lobe and lies in the depths of the lateral fissure and covered by portions of the frontal, parietal and temporal lobes. It includes Brodmann areas 13-16."
+          }
+     },
+     "GM Lateral geniculate body": {
+          "query": "lateral geniculate body",
+          "definitions": {
+               "FMA:62209": "Lateral geniculate body",
+               "UBERON:0001926": "The group of neurons that serve as the primary processor of visual information received from the retina via the optic tract and send processed information to the visual cortex of the occipital lobe."
+          }
+     },
+     "GM Mamillary body": {
+          "query": "mammillary body",
+          "definitions": {
+               "FMA:74877": "Mammillary body",
+               "UBERON:0000450": "White fibrous tissue that replaces the regressing corpus luteum in the human ovary in the latter half of pregnancy, or soon after ovulation when pregnancy does not supervene.",
+               "UBERON:0002206": "One of two hemispherical bulges on the base of the posterior hypothalamus (Butler and Hodos, Comparative Vertebrate Neuroanatomy, 2nd ed., 2005, pg 455)."
+          }
+     },
+     "GM Medial geniculate body": {
+          "query": "medial geniculate body",
+          "definitions": {
+               "FMA:62211": "Medial geniculate body",
+               "UBERON:0001927": "Nuclear complex of the thalamus situated on the caudal, subpial aspect of the thalamus (Brodal, Neurological Anatomy, 3rd ed., 1981, pg 622)."
+          }
+     },
+     "GM Premotor cortex BA6": {
+          "query": "premotor cortex",
+          "definitions": {
+               "FMA:224852": "Premotor cortex",
+               "UBERON:0016634": "The premotor cortex is an area of motor cortex lying within the frontal lobe of the brain. It extends 3 mm anterior to the primary motor cortex, near the Sylvian fissure, before narrowing to approximately 1 mm near the medial longitudinal fissure, which serves as the posterior border for the prefrontal cortex. The premotor cortex is largely equivalent to Brodmann area 6. Activity within this region is critical to the sensory guidance of movement and control of proximal and trunk muscles of the body."
+          }
+     },
+     "GM Primary auditory cortex TE1.0": {
+          "query": "primary auditory cortex",
+          "definitions": {
+               "FMA:272953": "Primary auditory cortex",
+               "UBERON:0001393": "The part of the brain that is the ultimate target of afferent auditory information.",
+               "UBERON:0034751": "The part of the auditory cortex that is located on the superior temporal gyrus in the temporal lobe and receives point-to-point input from the ventral division of the medial geniculate complex."
+          }
+     },
+     "GM Primary auditory cortex TE1.1": {
+          "query": "primary auditory cortex",
+          "definitions": {
+               "FMA:272953": "Primary auditory cortex",
+               "UBERON:0001393": "The part of the brain that is the ultimate target of afferent auditory information.",
+               "UBERON:0034751": "The part of the auditory cortex that is located on the superior temporal gyrus in the temporal lobe and receives point-to-point input from the ventral division of the medial geniculate complex."
+          }
+     },
+     "GM Primary auditory cortex TE1.2": {
+          "query": "primary auditory cortex",
+          "definitions": {
+               "FMA:272953": "Primary auditory cortex",
+               "UBERON:0001393": "The part of the brain that is the ultimate target of afferent auditory information.",
+               "UBERON:0034751": "The part of the auditory cortex that is located on the superior temporal gyrus in the temporal lobe and receives point-to-point input from the ventral division of the medial geniculate complex."
+          }
+     },
+     "GM Primary motor cortex BA4a": {
+          "query": "primary motor cortex",
+          "definitions": {
+               "FMA:224854": "Primary motor cortex",
+               "UBERON:0001384": "The part of the cerebral cortex that receives projections from the motor thalamus and which projects to motor neurons in the brainstem and spinal cord. The motor cortex corresponds to Brodmann's area 4 (MM). The primary motor cortex, or M1, is located on the precentral gyrus and on the anterior paracentral lobule on the medial surface of the brain. Of the three motor cortex areas, stimulation of the primary motor cortex requires the least amount of electrical current to elicit a movement. http://neuroscience.uth.tmc.edu/s3/chapter03.html."
+          }
+     },
+     "GM Primary motor cortex BA4p": {
+          "query": "primary motor cortex",
+          "definitions": {
+               "FMA:224854": "Primary motor cortex",
+               "UBERON:0001384": "The part of the cerebral cortex that receives projections from the motor thalamus and which projects to motor neurons in the brainstem and spinal cord. The motor cortex corresponds to Brodmann's area 4 (MM). The primary motor cortex, or M1, is located on the precentral gyrus and on the anterior paracentral lobule on the medial surface of the brain. Of the three motor cortex areas, stimulation of the primary motor cortex requires the least amount of electrical current to elicit a movement. http://neuroscience.uth.tmc.edu/s3/chapter03.html."
+          }
+     },
+     "GM Primary somatosensory cortex BA1": {
+          "query": "primary somatosensory cortex",
+          "definitions": {
+               "FMA:242642": "Somatic sensory cortex",
+               "UBERON:0008933": "(Chapin & Lin, 1984, rat): the region considered as the SI cortex is not a cytoarchitecturally homogeneous structure but consists instead of a patchwork array of areas containing dense aggregations of layer IV granule cells, surrounded by granule-cell-sparse regions. As was shown by Welker (b71,b76), and in our own mapping studies (see Fig. 3), this discontinuous pattern of granular, or koniocortical, zones contains within itself a map of the ratbs cutaneous periphery. There are clear subtypes within this cytoarchitectural subregion, notably including the bgranular aggregateb type of cytoarchitecture characteristic of the paw, limb, and mystacial vibrissae areas, and the bbarrel-fieldb type (originally described by Woolsey and Van der Loos, b70) seen in the nose and perioral regions. In the mouse, but not the rat, such barrels also cover the whole whisker representation (Welker and Woolsey, b74)."
+          }
+     },
+     "GM Primary somatosensory cortex BA2": {
+          "query": "primary somatosensory cortex",
+          "definitions": {
+               "FMA:242642": "Somatic sensory cortex",
+               "UBERON:0008933": "(Chapin & Lin, 1984, rat): the region considered as the SI cortex is not a cytoarchitecturally homogeneous structure but consists instead of a patchwork array of areas containing dense aggregations of layer IV granule cells, surrounded by granule-cell-sparse regions. As was shown by Welker (b71,b76), and in our own mapping studies (see Fig. 3), this discontinuous pattern of granular, or koniocortical, zones contains within itself a map of the ratbs cutaneous periphery. There are clear subtypes within this cytoarchitectural subregion, notably including the bgranular aggregateb type of cytoarchitecture characteristic of the paw, limb, and mystacial vibrissae areas, and the bbarrel-fieldb type (originally described by Woolsey and Van der Loos, b70) seen in the nose and perioral regions. In the mouse, but not the rat, such barrels also cover the whole whisker representation (Welker and Woolsey, b74)."
+          }
+     },
+     "GM Primary somatosensory cortex BA3a": {
+          "query": "primary somatosensory cortex",
+          "definitions": {
+               "FMA:242642": "Somatic sensory cortex",
+               "UBERON:0008933": "(Chapin & Lin, 1984, rat): the region considered as the SI cortex is not a cytoarchitecturally homogeneous structure but consists instead of a patchwork array of areas containing dense aggregations of layer IV granule cells, surrounded by granule-cell-sparse regions. As was shown by Welker (b71,b76), and in our own mapping studies (see Fig. 3), this discontinuous pattern of granular, or koniocortical, zones contains within itself a map of the ratbs cutaneous periphery. There are clear subtypes within this cytoarchitectural subregion, notably including the bgranular aggregateb type of cytoarchitecture characteristic of the paw, limb, and mystacial vibrissae areas, and the bbarrel-fieldb type (originally described by Woolsey and Van der Loos, b70) seen in the nose and perioral regions. In the mouse, but not the rat, such barrels also cover the whole whisker representation (Welker and Woolsey, b74)."
+          }
+     },
+     "GM Primary somatosensory cortex BA3b": {
+          "query": "primary somatosensory cortex",
+          "definitions": {
+               "FMA:242642": "Somatic sensory cortex",
+               "UBERON:0008933": "(Chapin & Lin, 1984, rat): the region considered as the SI cortex is not a cytoarchitecturally homogeneous structure but consists instead of a patchwork array of areas containing dense aggregations of layer IV granule cells, surrounded by granule-cell-sparse regions. As was shown by Welker (b71,b76), and in our own mapping studies (see Fig. 3), this discontinuous pattern of granular, or koniocortical, zones contains within itself a map of the ratbs cutaneous periphery. There are clear subtypes within this cytoarchitectural subregion, notably including the bgranular aggregateb type of cytoarchitecture characteristic of the paw, limb, and mystacial vibrissae areas, and the bbarrel-fieldb type (originally described by Woolsey and Van der Loos, b70) seen in the nose and perioral regions. In the mouse, but not the rat, such barrels also cover the whole whisker representation (Welker and Woolsey, b74)."
+          }
+     },
+     "GM Secondary somatosensory cortex / Parietal operculum OP1": {
+          "query": "secondary somatosensory cortex",
+          "definitions": {
+               "UBERON:0006471": "Brodmann area 5 is one of Brodmann's cytologically defined regions of the brain. It is involved in somatosensory processing and association.",
+               "UBERON:0008934": "The area of the upper bank of the lateral sulcus that is involved in somatic sensation."
+          }
+     },
+     "GM Secondary somatosensory cortex / Parietal operculum OP2": {
+          "query": "secondary somatosensory cortex",
+          "definitions": {
+               "UBERON:0006471": "Brodmann area 5 is one of Brodmann's cytologically defined regions of the brain. It is involved in somatosensory processing and association.",
+               "UBERON:0008934": "The area of the upper bank of the lateral sulcus that is involved in somatic sensation."
+          }
+     },
+     "GM Secondary somatosensory cortex / Parietal operculum OP3": {
+          "query": "secondary somatosensory cortex",
+          "definitions": {
+               "UBERON:0006471": "Brodmann area 5 is one of Brodmann's cytologically defined regions of the brain. It is involved in somatosensory processing and association.",
+               "UBERON:0008934": "The area of the upper bank of the lateral sulcus that is involved in somatic sensation."
+          }
+     },
+     "GM Secondary somatosensory cortex / Parietal operculum OP4": {
+          "query": "secondary somatosensory cortex",
+          "definitions": {
+               "UBERON:0006471": "Brodmann area 5 is one of Brodmann's cytologically defined regions of the brain. It is involved in somatosensory processing and association.",
+               "UBERON:0008934": "The area of the upper bank of the lateral sulcus that is involved in somatic sensation."
+          }
+     },
+     "GM Superior parietal lobule 5Ci": {
+          "query": "superior parietal lobule",
+          "definitions": {
+               "FMA:61899": "Superior parietal lobule (swannt)",
+               "UBERON:0006094": "Copmonent of the parietal lobe. The rostral and caudal boundaries of the superior parietal cortex were the precentral gyrus and lateral occipital cortex respectively. The medial and lateral boundaries were the precuneus and/or cuneus cortex and the infererior parietal cortex respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Superior parietal lobule 5L": {
+          "query": "superior parietal lobule",
+          "definitions": {
+               "FMA:61899": "Superior parietal lobule (swannt)",
+               "UBERON:0006094": "Copmonent of the parietal lobe. The rostral and caudal boundaries of the superior parietal cortex were the precentral gyrus and lateral occipital cortex respectively. The medial and lateral boundaries were the precuneus and/or cuneus cortex and the infererior parietal cortex respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Superior parietal lobule 5M": {
+          "query": "superior parietal lobule",
+          "definitions": {
+               "FMA:61899": "Superior parietal lobule (swannt)",
+               "UBERON:0006094": "Copmonent of the parietal lobe. The rostral and caudal boundaries of the superior parietal cortex were the precentral gyrus and lateral occipital cortex respectively. The medial and lateral boundaries were the precuneus and/or cuneus cortex and the infererior parietal cortex respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Superior parietal lobule 7A": {
+          "query": "superior parietal lobule",
+          "definitions": {
+               "FMA:61899": "Superior parietal lobule (swannt)",
+               "UBERON:0006094": "Copmonent of the parietal lobe. The rostral and caudal boundaries of the superior parietal cortex were the precentral gyrus and lateral occipital cortex respectively. The medial and lateral boundaries were the precuneus and/or cuneus cortex and the infererior parietal cortex respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Superior parietal lobule 7M": {
+          "query": "superior parietal lobule",
+          "definitions": {
+               "FMA:61899": "Superior parietal lobule (swannt)",
+               "UBERON:0006094": "Copmonent of the parietal lobe. The rostral and caudal boundaries of the superior parietal cortex were the precentral gyrus and lateral occipital cortex respectively. The medial and lateral boundaries were the precuneus and/or cuneus cortex and the infererior parietal cortex respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Superior parietal lobule 7P": {
+          "query": "superior parietal lobule",
+          "definitions": {
+               "FMA:61899": "Superior parietal lobule (swannt)",
+               "UBERON:0006094": "Copmonent of the parietal lobe. The rostral and caudal boundaries of the superior parietal cortex were the precentral gyrus and lateral occipital cortex respectively. The medial and lateral boundaries were the precuneus and/or cuneus cortex and the infererior parietal cortex respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Superior parietal lobule 7PC": {
+          "query": "superior parietal lobule",
+          "definitions": {
+               "FMA:61899": "Superior parietal lobule (swannt)",
+               "UBERON:0006094": "Copmonent of the parietal lobe. The rostral and caudal boundaries of the superior parietal cortex were the precentral gyrus and lateral occipital cortex respectively. The medial and lateral boundaries were the precuneus and/or cuneus cortex and the infererior parietal cortex respectively (Christine Fennema-Notestine)."
+          }
+     },
+     "GM Visual cortex V2 BA18": {
+          "query": "visual cortex",
+          "definitions": {
+               "UBERON:0000411": "The part of the occipital lobe responsible for processing visual information."
+          }
+     },
+     "GM Visual cortex V3V": {
+          "query": "visual cortex",
+          "definitions": {
+               "UBERON:0000411": "The part of the occipital lobe responsible for processing visual information."
+          }
+     },
+     "GM Visual cortex V4": {
+          "query": "visual cortex",
+          "definitions": {
+               "UBERON:0000411": "The part of the occipital lobe responsible for processing visual information."
+          }
+     },
+     "GM Visual cortex V5": {
+          "query": "visual cortex",
+          "definitions": {
+               "UBERON:0000411": "The part of the occipital lobe responsible for processing visual information."
+          }
+     },
+     "WM Acoustic radiation": {
+          "query": "auditory radiation",
+          "definitions": {
+               "FMA:62413": "Auditory radiation (swannt)",
+               "UBERON:0022262": "The acoustic radiations or auditory radiations are structures found in the brain, in the ventral cochlear pathway, a part of the auditory system. Lesions to the auditory radiations could be a cause of cortical deafness."
+          }
+     },
+     "WM Callosal body": {
+          "query": "corpus callosum",
+          "definitions": {
+               "FMA:86464": "Corpus callosum",
+               "UBERON:0002336": "White matter structure containing massive numbers of commissural fibers connecting cortical areas in the two cerebral hemispheres. It is subdivided into a genu, a rostrum, a body, and a splenium. (MM)."
+          }
+     },
+     "WM Cingulum": {
+          "query": "cingulum of brain",
+          "definitions": {
+               "UBERON:0003961": "The white matter fiber bundle that projects from the cingulate gyrus to the entorhinal cortex in the brain."
+          }
+     },
+     "WM Corticospinal tract": {
+          "query": "corticospinal tract",
+          "definitions": {
+               "FMA:265580": "Corticospinal tract (swannt)",
+               "UBERON:0002707": "The corticospinal fibers that arise from the pyramidal cells within the cerebral cortex layer V of the precentral motor area, the premotor area and the postcentral gyrus, then descend into and through the medulla to form the lateral corticospinal tract and the anterior corticospinal tract."
+          }
+     },
+     "WM Fornix": {
+          "query": "fornix of brain",
+          "definitions": {
+               "FMA:61965": "Fornix of neuraxis which connects Ammon's horn of the hippocampus with the mammillary nuclei of the hypothalamus and anterior nuclei of the thalamus.",
+               "UBERON:0000052": "A C-shaped bundle of fibres (axons) in the brain, and carries signals from the hippocampus to the mammillary bodies and septal nuclei. It is typically divided into the columns (crus), body, commissure and the pre-commissural and post-commissural fornix (MM)."
+          }
+     },
+     "WM Inferior occipito-frontal fascicle": {
+          "query": "inferior frontal sulcus",
+          "definitions": {
+               "FMA:83757": "Inferior frontal sulcus",
+               "UBERON:0002761": "The inferior frontal sulcus is a sulcus between the middle frontal gyrus and the inferior frontal gyrus. [WP,unvetted]."
+          }
+     },
+     "WM Optic radiation": {
+          "query": "optic radiation",
+          "definitions": {
+               "FMA:61941": "Optic radiation (swannt)",
+               "UBERON:0022264": "The optic radiation (also known as the geniculo-calcarine tract or as the geniculostriate pathway) is a collection of axons from relay neurons in the lateral geniculate nucleus of the thalamus carrying visual information to the visual cortex (also called striate cortex) along the calcarine fissure. There is one such tract on each side of the brain."
+          }
+     },
+     "WM Superior longitudinal fascicle": {
+          "query": "superior longitudinal fasciculus",
+          "definitions": {
+               "FMA:77631": "Superior longitudinal fasciculus",
+               "UBERON:0022246": "The superior longitudinal fasciculus (also called the superior longitudinal fascicle or SLF) is a pair of long bi-directional bundles of neurons connecting the front and the back of the cerebrum. Each association fiber bundle is lateral to the centrum ovale of a cerebral hemisphere and connects the frontal, occipital, parietal, and temporal lobes. The neurons pass from the frontal lobe through the operculum to the posterior end of the lateral sulcus where numerous neurons radiate into the occipital lobe and other neurons turn downward and forward around the putamen and radiate to anterior portions of the temporal lobe."
+          }
+     },
+     "WM Superior occipito-frontal fascicle": {
+          "query": "superior frontal sulcus",
+          "definitions": {
+               "FMA:83755": "Superior frontal sulcus",
+               "UBERON:0002562": "The superior frontal sulcus is a sulcus between the superior frontal gyrus and the middle frontal gyrus. [WP,unvetted]."
+          }
+     },
+     "WM Uncinate fascicle": {
+          "query": "uncinate fasciculus",
+          "definitions": {
+               "FMA:77636": "Uncinate fasciculus",
+               "UBERON:0003044": "Pathway arising from the fastigial nucleus to the vestibular nuclei, reticular formation, motor neurons of brainstem and cervical spinal cord (Butler and Hodos, Comparative Vertebrate Neuroanatomy, 2nd ed., 2005, pg 261)."
+          }
+     }
+}

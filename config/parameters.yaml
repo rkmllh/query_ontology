@@ -1,0 +1,7 @@
+# parameters.yaml
+atlas_name: maxprob-thr0-1mm
+output_file: src/integration/txt/regions_labels.txt
+
+json_regions: src/integration/txt/solved_regions.json
+csv_regions: src/integration/txt/solved_regions.csv
+embeddings_path: src/integration/txt/uberon_embeddings.json
