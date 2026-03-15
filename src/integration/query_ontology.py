@@ -8,12 +8,7 @@ import os
 from typing import Dict, Any, Tuple
 import requests
 from urllib.parse import quote
-import csv
-import json
-
-
-BIOPORTAL_KEY = "6b0ad029-1de7-4fdd-a918-82a34dcf44e3"
-
+from src.common.utils import load_params
 
 def write_regions_from_atlas(atlas_name, filename):
     juelich = datasets.fetch_atlas_juelich(atlas_name, symmetric_split=False, resume=True, verbose=1)
@@ -163,6 +158,8 @@ def build_template_from_regions(
 
 def fetch_definition_from_bioportal(uberon_id):
 
+    BIOPORTAL_KEY = load_params(path="config/keys.yaml")['bio_portal_key']
+
     iri = f"http://purl.obolibrary.org/obo/{uberon_id.replace(':','_')}"
     encoded_iri = quote(iri, safe='')
     url = f"https://data.bioontology.org/ontologies/UBERON/classes/{encoded_iri}"
@@ -232,31 +229,3 @@ def build_dict(brain_dict, term, t_value=10):
             brain_dict[zone][ont]['definitions'] = defs
 
     return brain_dict
-
-
-def json_to_csv(data, output_path):
-    with open(output_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(["label", "query", "ontology_id", "definition"])
-
-        for label, content in data.items():
-            query = content.get("query", "")
-            definitions = content.get("definitions", {})
-
-            for ont_id, definition in definitions.items():
-                writer.writerow([
-                    label,
-                    query,
-                    ont_id,
-                    definition
-                ])
-
-
-def save_json(data, path):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=5, ensure_ascii=False)
-
-
-def read_json(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)

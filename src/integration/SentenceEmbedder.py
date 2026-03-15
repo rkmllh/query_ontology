@@ -1,6 +1,6 @@
 from transformers import AutoTokenizer, AutoModel
 import torch
-from src.integration.query_ontology import (save_json, read_json)
+from src.common.utils import (save_json, read_json)
 import os
 from safetensors.torch import save_file
 
