@@ -1,5 +1,5 @@
 import click
-from src.integration.query_ontology import build_dict, build_template_from_regions
+from src.integration.query_ontology import BrainDictBuilder, build_dict, build_template_from_regions
 from src.common.utils import load_params, save_json, json_to_csv, read_json
 from src.common.utils import init_ont
 from src.integration.SentenceEmbedder import SentenceEmbedder, OntologyEmbedder
@@ -13,7 +13,9 @@ def cli():
 @cli.command()
 @click.option("--t_value", default=10, show_default=True, type=int, help="Threshold value")
 def create_dict(t_value):
-
+    BrainDictBuilder(t_value=t_value)
+    pass
+    '''
     keys = load_params(path="config/keys.yaml")
     init_ont(key=keys["ont_key"])
 
@@ -30,6 +32,7 @@ def create_dict(t_value):
 
     save_json(template, json_regions)
     json_to_csv(template, csv_regions)
+    '''
 
 @cli.command()
 def create_embedding():
