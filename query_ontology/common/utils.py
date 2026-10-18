@@ -24,6 +24,9 @@ def load_params(path="config/parameters.yaml"):
 
 
 def save_json(data, path):
+    directory = os.path.dirname(path)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=5, ensure_ascii=False)
 
@@ -34,6 +37,9 @@ def read_json(path):
 
 
 def json_to_csv(data, output_path):
+    directory = os.path.dirname(output_path)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["label", "query", "ontology_id", "definition"])
