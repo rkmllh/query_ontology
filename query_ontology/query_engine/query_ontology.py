@@ -1,5 +1,3 @@
-# src/integration/query_ontology.py
-
 import subprocess
 import re
 import ast
@@ -8,8 +6,8 @@ import os
 from typing import Dict, Any, Tuple
 import requests
 from urllib.parse import quote
-from src.common.utils import json_to_csv, load_params, save_json, read_json
-from src.common.utils import init_ont
+from query_ontology.common.utils import json_to_csv, load_params, save_json, read_json
+from query_ontology.common.utils import init_ont
 
 
 def write_regions_from_atlas(atlas_name, filename):
@@ -126,7 +124,7 @@ def build_template_from_regions(
         defs: Dict[str, str] = {}
         for ont_id, meta in ont_map.items():
             if not is_fma_or_uberon(str(ont_id), meta):
-                continue  # skip non-FMA/UBERON entries
+                continue
 
             definition_str = ""
 
@@ -158,7 +156,7 @@ def build_template_from_regions(
     return template, brain_dict
 
 
-def fetch_definition_from_bioportal(uberon_id):
+def fetch_definition_from_bioportal__(uberon_id):
 
     BIOPORTAL_KEY = load_params(path="config/keys.yaml")['bio_portal_key']
 
@@ -239,22 +237,45 @@ class BrainDictBuilder:
                  params_path="config/parameters.yaml",
                  t_value=10):
         
-        self.keys_path = keys_path
-        self.params_path = params_path
-        self.keys = load_params(path=self.keys_path)
+        self.t_value = t_value
+
+        self.keys = load_params(path=keys_path)
+        self.bioportal_key = self.keys["bio_portal_key"]
         init_ont(key=self.keys["ont_key"])
-        self.parameters = load_params(path=self.params_path)
+
+        self.parameters = load_params(path=params_path)
         self.json_regions = self.parameters.get("json_regions")
         self.csv_regions = self.parameters.get("csv_regions")
         self.regions_query = self.parameters.get("regions_query")
-        self.t_value = t_value
-        self.brain_dict: Dict[str, Any] = {}
 
         if isinstance(self.regions_query, str):
             self.regions_query = read_json(self.regions_query)
 
-        self.template = self.create_dict(self.t_value)
+        self.brain_dict: Dict[str, Any] = {}
+
+        self.template = self.create_dict()
         
+    def fetch_definition_from_bioportal(self, uberon_id: str):
+        iri = f"http://purl.obolibrary.org/obo/{uberon_id.replace(':','_')}"
+        encoded_iri = quote(iri, safe='')
+        url = f"https://data.bioontology.org/ontologies/UBERON/classes/{encoded_iri}"
+        headers = {"Authorization": f"apikey token={self.bioportal_key}"}
+
+        try:
+            resp = requests.get(url, headers=headers, timeout=10)
+            if resp.status_code == 200:
+                data = resp.json()
+                defs = data.get("definition", [])
+                if not defs:
+                    defs = data.get("comment", [])
+                return defs
+            else:
+                print(f"[BioPortal] Error {resp.status_code} for {uberon_id}")
+        except Exception as e:
+            print(f"[BioPortal] Exception for {uberon_id}: {e}")
+
+        return []
+
     def build_dict(self, brain_dict: Dict[str, Any], term: str, t_value: int = 10) -> Dict[str, Any]:
         """Populate brain_dict with ontology information for a given term."""
         result = subprocess.run(
@@ -297,13 +318,40 @@ class BrainDictBuilder:
                         value = (value == "True")
                     brain_dict[zone][current_ontology][key] = value
 
-        # Fetch definitions for UBERON ontologies
         for ont in brain_dict[zone]:
             if ont.startswith("UBERON:"):
-                defs = fetch_definition_from_bioportal(ont)
+                defs = self.fetch_definition_from_bioportal(ont)
                 brain_dict[zone][ont]['definitions'] = defs
 
         return brain_dict
+
+    def is_fma_or_uberon(self, ont_id: str, meta: Dict[str, Any]) -> bool:
+        
+        """
+        Check whether a given ontology entry corresponds to FMA or UBERON.
+
+        Parameters:
+        - ont_id: str - the identifier of the ontology entry (e.g., 'FMA:68641').
+        - meta: dict - metadata for the ontology entry, expected to possibly include 'iri'.
+
+        Returns:
+        - bool: True if the entry is from FMA or UBERON, False otherwise.
+        """
+        
+        if isinstance(ont_id, str):
+            if ont_id.startswith("FMA:") or ont_id.startswith("UBERON:"):
+                return True
+
+        iri = ""
+        if isinstance(meta, dict):
+            iri = meta.get("iri", "") or ""
+        if isinstance(iri, str) and iri:
+            iri_low = iri.lower()
+            if "/fma" in iri_low or "fma" in iri_low and "ontology" in iri_low:
+                return True
+            if "uberon_" in iri_low or "obo/uberon" in iri_low:
+                return True
+        return False
 
     def build_template_from_regions(self, t_value: int = 10) -> Dict[str, Any]:
         """
@@ -328,7 +376,7 @@ class BrainDictBuilder:
 
             defs: Dict[str, str] = {}
             for ont_id, meta in ont_map.items():
-                if not is_fma_or_uberon(str(ont_id), meta):
+                if not self.is_fma_or_uberon(str(ont_id), meta):
                     continue
 
                 definition_str = ""
